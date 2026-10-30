@@ -2,17 +2,22 @@
 
 Download mirror for **Hyrule Evil 4**, a free fan mod that puts Link from *The Legend of Zelda: Twilight Princess* into *Resident Evil 4* UHD (Steam).
 
-Main page, full description and the base version: https://www.nexusmods.com/residentevil4/mods/954
+Main page and full description: https://www.nexusmods.com/residentevil4/mods/954
 
 This repository only hosts release files. Get them from **[Releases](../../releases)**.
 
-## How to install an update
+## Which files do I need?
 
-1. Close the game.
-2. Either run the updater EXE, or extract the patch ZIP **outside** the game folder and run `LinkInRE4/Install-LinkInRE4.bat`.
-3. Each release lists the SHA-256 of its files in `SHA256SUMS-<version>.txt`.
+**New players** (full mod):
+1. [3.2.0](../../releases/tag/v3.2.0): the full mod. `Main` is required (3 parts), `HD-Textures` is optional (4 parts). Join the parts with 7-Zip (open the `.001` file) or with `copy /b`, as the release notes explain.
+2. [3.2.1](../../releases/tag/v3.2.1): patch.
+3. [3.3.0](../../releases/tag/v3.3.0): patch, or run its updater EXE to install 3.2.1 and 3.3.0 in one go.
 
-You need your own copy of Resident Evil 4 on Steam and the base version from the Nexus page.
+**Already on 3.2.0 or 3.2.1:** only [the latest release](../../releases/latest).
+
+To install any ZIP: close the game, extract it **outside** the game folder and run `LinkInRE4/Install-LinkInRE4.bat`. Each release lists the SHA-256 of its files.
+
+You need your own copy of Resident Evil 4 on Steam.
 
 ## Disclaimer
 
