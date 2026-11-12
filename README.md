@@ -8,16 +8,22 @@ This repository only hosts release files. Get them from **[Releases](../../relea
 
 ## Which files do I need?
 
-**New players** (full mod):
-1. [3.2.0](../../releases/tag/v3.2.0): the full mod. `Main` is required (3 parts), `HD-Textures` is optional (4 parts). Join the parts with 7-Zip (open the `.001` file) or with `copy /b`, as the release notes explain.
-2. [3.2.1](../../releases/tag/v3.2.1): patch.
-3. [3.3.0](../../releases/tag/v3.3.0): patch, or run its updater EXE to install 3.2.1 and 3.3.0 in one go.
+You need your own copy of Resident Evil 4 UHD on Steam, with its original `bio4.exe`. If a tool offers the 4GB/LAA patch, answer **No**.
 
-**Already on 3.2.0 or 3.2.1:** only [the latest release](../../releases/latest).
+**New players** (full mod):
+1. [3.2.0](../../releases/tag/v3.2.0): the full mod. `Main` is required (3 parts), `HD-Textures` is optional (4 parts). Download **every** part, then join them with 7-Zip (open the `.001` file) or with `copy /b`, as the release notes explain. Extract outside the game folder and run `LinkInRE4/Install-LinkInRE4.bat` (Main first, then HD-Textures).
+2. [3.4.3](../../releases/tag/v3.4.3): run `LinkInRE4-3.4.3-Actualizador-desde-3.2.0.exe`. It takes 3.2.0 to 3.4.3.
+3. [The latest release](../../releases/latest): run its updater EXE (`LinkInRE4-3.6.1-Actualizador-desde-3.4.0.exe` for 3.6.1).
+
+**Already playing:**
+- On 3.2.0, 3.2.1 or 3.3.0: the 3.4.3 updater, then the latest updater.
+- On 3.4.0 or later: only the latest updater EXE. If you are on the version just before the latest one, its small patch ZIP also works.
 
 To install any ZIP: close the game, extract it **outside** the game folder and run `LinkInRE4/Install-LinkInRE4.bat`. Each release lists the SHA-256 of its files.
 
-You need your own copy of Resident Evil 4 on Steam.
+**Do not copy the mod's files into the game by hand.** The installer also moves aside the game's compressed `.lfs` originals. Without that step the menu and many textures stay vanilla while the music changes, and the game can crash when gameplay starts. If that already happened: in Steam, right-click Resident Evil 4 > Properties > Installed Files > Verify integrity, then install again with the `.bat`.
+
+**re4_tweaks or re4_fps:** they also use `Bin32\dinput8.dll`. Rename theirs to `winmm.dll` (and `dinput8.ini` to `winmm.ini`) before installing; the installer stops and tells you if it finds one.
 
 ## Disclaimer
 
