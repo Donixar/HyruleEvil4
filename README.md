@@ -6,7 +6,7 @@ Main page and full description: https://www.nexusmods.com/residentevil4/mods/954
 
 This repository only hosts release files. Get them from **[Releases](../../releases)**.
 
-**Current version: 3.6.3** (18 Nov 2026). Fixes only, plus the new updater window. What changed: [3.6.3 release notes](../../releases/tag/v3.6.3).
+**Current version: 3.6.4.** Download the [offline updater](../../releases/tag/v3.6.4) to update an existing install in one run.
 
 ## Which files do I need?
 
@@ -14,14 +14,13 @@ You need your own copy of Resident Evil 4 UHD on Steam, with its original `bio4.
 
 **New players** (full mod):
 1. [3.2.0](../../releases/tag/v3.2.0): the full mod. `Main` is required (3 parts), `HD-Textures` is optional (4 parts). Download **every** part, then join them with 7-Zip (open the `.001` file) or with `copy /b`, as the release notes explain. Extract outside the game folder and run `LinkInRE4/Install-LinkInRE4.bat` (Main first, then HD-Textures).
-2. [3.4.3](../../releases/tag/v3.4.3): run `LinkInRE4-3.4.3-Actualizador-desde-3.2.0.exe`. It takes 3.2.0 to 3.4.3.
-3. [The latest release](../../releases/latest): run its updater EXE (`LinkInRE4-3.6.3-Actualizador-desde-3.4.0.exe` for 3.6.3).
+2. Download the [3.6.4 offline updater](../../releases/tag/v3.6.4). Close the game and run LinkInRE4-3.6.4-Actualizador-desde-3.2.0.exe once.
 
-The updater EXEs open a progress window at once (step, bar, elapsed time) and give their final message in English and Spanish. An update can take several minutes, longer with the HD textures: let it finish and do not open the updater a second time.
+The updater opens a progress window at once (step, bar, elapsed time) and gives its final message in English and Spanish. An update can take several minutes, longer with the HD textures: let it finish and do not open the updater a second time.
 
 **Already playing:**
-- On 3.2.0, 3.2.1 or 3.3.0: the 3.4.3 updater, then the latest updater.
-- On 3.4.0 or later: only the latest updater EXE (it keeps your settings). If you are on the version just before the latest one (3.6.2 for 3.6.3), its small patch ZIP also works.
+- From any published version between 3.2.0 and 3.6.3, run the same [3.6.4 offline updater](../../releases/tag/v3.6.4) once. It detects your installed version and keeps your settings.
+- The small manual ZIP is also available for players already on 3.6.3.
 
 To install any ZIP: close the game, extract it **outside** the game folder and run `LinkInRE4/Install-LinkInRE4.bat`. Each release lists the SHA-256 of its files.
 
