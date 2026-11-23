@@ -13,8 +13,8 @@ This repository only hosts release files. Get them from **[Releases](../../relea
 You need your own copy of Resident Evil 4 UHD on Steam, with its original `bio4.exe`. If a tool offers the 4GB/LAA patch, answer **No**.
 
 **New players** (full mod):
-1. [3.2.0](../../releases/tag/v3.2.0): the full mod. `Main` is required (3 parts), `HD-Textures` is optional (4 parts). Download **every** part, then join them with 7-Zip (open the `.001` file) or with `copy /b`, as the release notes explain. Extract outside the game folder and run `LinkInRE4/Install-LinkInRE4.bat` (Main first, then HD-Textures).
-2. Download the [3.6.4 offline updater](../../releases/tag/v3.6.4). Close the game and run LinkInRE4-3.6.4-Actualizador-desde-3.2.0.exe once.
+
+Download the [3.6.4 installer](https://github.com/Donixar/HyruleEvil4/releases/download/v3.6.4/HyruleEvil4-3.6.4-Installer.exe), close Resident Evil 4 and open the installer. It downloads and verifies the full package, then installs 3.6.4 directly on a clean Steam copy. The package includes standard textures. Set Texture Quality to Original in the game.
 
 The updater opens a progress window at once (step, bar, elapsed time) and gives its final message in English and Spanish. An update can take several minutes, longer with the HD textures: let it finish and do not open the updater a second time.
 
